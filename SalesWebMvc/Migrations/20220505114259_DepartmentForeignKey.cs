@@ -51,5 +51,6 @@ namespace SalesWebMvc.Migrations
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Restrict);
         }
+
     }
 }

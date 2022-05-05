@@ -52,5 +52,6 @@ namespace SalesWebMvc.Models
         {
             return Sales.Where(sr => sr.Date >= initial && sr.Date <= final).Sum(sr => sr.Amount);
         }
+
     }
 }
